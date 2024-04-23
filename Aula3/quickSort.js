@@ -10,7 +10,16 @@ function encontraMenores(pivo, array){
             menores ++;
         }
     }
-    return menores;
+    trocaLugar(array, array.indexOf(pivo), menores);
+    return array;
+}
+
+function trocaLugar(array, de, para){
+    const elemento1 = array[de];
+    const elemento2 = array[para];
+
+    array[para] = elemento1
+    array[de] = elemento2
 }
 
 console.log(encontraMenores(listaLivros[2], listaLivros));
