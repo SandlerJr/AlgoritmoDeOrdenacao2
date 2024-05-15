@@ -22,4 +22,4 @@
 <p>Equipe da Alura;</p>
 
 <H2>Status:</H2>
-<p>Em desenvolvimento...</p>
+<p>finalizado</p>
